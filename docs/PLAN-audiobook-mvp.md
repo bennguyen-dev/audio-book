@@ -75,9 +75,15 @@ src/
 
 ---
 
-## Tasks (Incremental Approach)
+### Phase 1.0: Structure Refactor (Strict Rules)
 
-### Phase 1.1: Database Setup
+- [x] Move `app/` to `src/app/`
+- [x] Move `components/` to `src/shared/components/`
+- [x] Move `lib/` to `src/shared/lib/`
+- [x] Update `tsconfig.json` paths (`@/*` -> `./src/*`)
+- [x] Update `components.json` aliases
+- [x] Update imports in all files
+- [x] Verify build
 
 **Install**: `prisma @prisma/client`
 
